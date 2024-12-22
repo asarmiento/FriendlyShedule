@@ -1,0 +1,6 @@
+<style name="Widget.MedicalAgenda.Chip" parent="Widget.MaterialComponents.Chip.Filter">
+    <item name="chipBackgroundColor">@color/chip_background_color</item>
+    <item name="android:textColor">@color/chip_text_color</item>
+    <item name="chipStrokeColor">@color/chip_stroke_color</item>
+    <item name="chipStrokeWidth">1dp</item>
+</style> 

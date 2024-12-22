@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Friendly Schedule</string>
+    <string name="attendance_rate_range">Entre %1$d%% y %2$d%%</string>
+</resources>

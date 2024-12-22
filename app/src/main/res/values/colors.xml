@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales -->
+    <color name="primary">#1A446C</color>
+    <color name="secondary">#E9F1F7</color>
+    <color name="accent">#F4A261</color>
+    <color name="complementary">#2A9D8F</color>
+    
+    <!-- Textos -->
+    <color name="text_dark">#2E2E2E</color>
+    <color name="text_light">#FFFFFF</color>
+    
+    <!-- Estados -->
+    <color name="success">#2A9D8F</color>
+    <color name="error">#E63946</color>
+    <color name="warning">#F4A261</color>
+</resources>
