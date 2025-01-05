@@ -1,3 +1,10 @@
+package com.friendlysystemgroup.friendlyschedule
+
+import NotificationChannelManager
+import StatsNotificationService
+import SyncWorker
+import WidgetUpdateWorker
+
 @HiltAndroidApp
 class MedicalAgendaApplication : Application() {
 

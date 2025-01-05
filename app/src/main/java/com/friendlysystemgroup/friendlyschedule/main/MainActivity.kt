@@ -1,10 +1,24 @@
+package com.friendlysystemgroup.friendlyschedule.main
+
+import AppointmentConfirmationDialog
+import AppointmentData
+import AppointmentGroupAdapter
+import FilterDialog
+import LoginActivity
+import MainViewModel
+import NewAppointmentDialog
+import PermissionManager
+import SettingsActivity
+import TimeSlotsDialog
+import UiState
+
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private val viewModel: MainViewModel by viewModels()
     private val appointmentGroupAdapter = AppointmentGroupAdapter(
-        onAttendanceChanged = { id, attended -> 
+        onAttendanceChanged = { id, attended ->
             viewModel.markAsAttended(id, attended)
         }
     )

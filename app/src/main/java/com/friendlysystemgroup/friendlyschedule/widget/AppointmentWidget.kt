@@ -1,3 +1,13 @@
+import android.appwidget.AppWidgetManager
+import android.appwidget.AppWidgetProvider
+import android.content.Context
+import android.widget.RemoteViews
+import com.friendlysystemgroup.friendlyschedule.main.MainActivity
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import javax.inject.Inject
+
 @AndroidEntryPoint
 class AppointmentWidget : AppWidgetProvider() {
 

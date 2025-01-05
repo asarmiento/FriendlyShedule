@@ -1,3 +1,5 @@
+import com.friendlysystemgroup.friendlyschedule.main.MainActivity
+
 @AndroidEntryPoint
 class LoginActivity : AppCompatActivity() {
 
